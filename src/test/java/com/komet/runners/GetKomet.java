@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         glue = "com.komet.stepsdefinitions",
-        features = "C:\\Users\\Usuario\\IdeaProjects\\PruebaKometPet\\src\\test\\resources\\com.komet.features/get_komet.feature",
+        features = "src\\test\\resources\\com.komet.features/get_komet.feature",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class GetKomet {
